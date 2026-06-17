@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "app_context.cpp"
+        "sensor_task.cpp"
+        "button_task.cpp"
+        "servo_task.cpp"
+        "ready_led_task.cpp"
+        "task_manager.cpp"
+    INCLUDE_DIRS
+        "../include"
+)
