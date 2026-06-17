@@ -31,7 +31,10 @@
  *
  * 10. constexpr es preferible a #define porque tiene tipo, respeta alcance
  *     y permite verificacion por el compilador.
- */
+ *CONCLUSION
+
+En esta práctica se implementó un sistema multitarea utilizando FreeRTOS y ESP-IDF para controlar un servomotor mediante eventos, colas y un filtro de mediana. El uso de TaskManager permitió centralizar la lógica de control, mientras que las colas facilitaron una comunicación segura entre tareas. Además, se comprobó el funcionamiento de la suspensión y reanudación de tareas mediante TaskHandle_t, obteniendo un sistema modular, escalable y fácil de mantener.
+*/
 #include "app_context.hpp"
 #include "app_config.hpp"
 #include "sensor_task.hpp"
