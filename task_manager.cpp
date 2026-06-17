@@ -11,22 +11,10 @@
 static const char *TAG = "MANAGER";
 
 enum class SystemState {
-    READY = 0,
-    OPERATING = 1,
-    HOLDING = 2
+    READY,
+    OPERATING,
+    HOLDING
 };
-
-static void clear_queue(QueueHandle_t q) {
-    if (q == nullptr) {
-        return;
-    }
-
-    uint8_t dummy[32];
-
-    while (xQueueReceive(q, dummy, 0) == pdTRUE) {
-        // limpia mensajes pendientes
-    }
-}
 
 void TaskManager(void *pvParameters) {
     const ManagerTaskConfig_t *cfg = static_cast<const ManagerTaskConfig_t *>(pvParameters);
@@ -56,11 +44,6 @@ void TaskManager(void *pvParameters) {
                 if (state == SystemState::READY) {
                     state = SystemState::OPERATING;
                     fast_mode = false;
-                    last_target = 0;
-
-                    clear_queue(g_queues.q_sensor);
-                    clear_queue(g_queues.q_servo_cmd);
-                    clear_queue(g_queues.q_servo_status);
 
                     ready_led_force_off();
 
@@ -77,20 +60,16 @@ void TaskManager(void *pvParameters) {
                 }
             }
 
-            if (button_msg.id == ButtonId::SPEED) {
-                if (state == SystemState::OPERATING) {
-                    fast_mode = (button_msg.action == ButtonAction::PRESSED);
+            if (button_msg.id == ButtonId::SPEED && state == SystemState::OPERATING) {
+                fast_mode = (button_msg.action == ButtonAction::PRESSED);
 
-                    ServoCmd_t cmd = {};
-                    cmd.target_angle = last_target;
-                    cmd.fast_mode = fast_mode;
+                ServoCmd_t cmd = {};
+                cmd.target_angle = last_target;
+                cmd.fast_mode = fast_mode;
 
-                    xQueueSend(g_queues.q_servo_cmd, &cmd, 0);
+                xQueueSend(g_queues.q_servo_cmd, &cmd, 0);
 
-                    ESP_LOGI(TAG, "Velocidad=%s", fast_mode ? "RAPIDA" : "LENTA");
-                } else {
-                    ESP_LOGW(TAG, "Velocidad ignorada: no esta en movimiento");
-                }
+                ESP_LOGI(TAG, "Velocidad=%s", fast_mode ? "RAPIDA" : "LENTA");
             }
         }
 
@@ -115,10 +94,6 @@ void TaskManager(void *pvParameters) {
                     state = SystemState::HOLDING;
                     hold_start = xTaskGetTickCount();
 
-                    clear_queue(g_queues.q_sensor);
-                    clear_queue(g_queues.q_servo_cmd);
-                    clear_queue(g_queues.q_servo_status);
-
                     ESP_LOGI(TAG, "Objetivo alcanzado. Manteniendo 8 segundos");
                 }
             }
@@ -129,11 +104,7 @@ void TaskManager(void *pvParameters) {
 
             if (elapsed >= pdMS_TO_TICKS(HOLD_TARGET_MS)) {
                 state = SystemState::READY;
-
-                clear_queue(g_queues.q_sensor);
-                clear_queue(g_queues.q_servo_cmd);
-                clear_queue(g_queues.q_servo_status);
-                clear_queue(g_queues.q_button);
+                fast_mode = false;
 
                 vTaskSuspend(g_handles.h_sensor);
                 vTaskSuspend(g_handles.h_servo);
