@@ -1,3 +1,37 @@
+/**
+ * Respuestas:
+ *
+ * 1. Una variable global comparte datos directamente, pero no sincroniza tareas.
+ *    Una cola permite enviar datos entre tareas de forma ordenada y segura.
+ *
+ * 2. La tarea que ejecuta xQueueReceive() queda bloqueada si espera datos
+ *    y la cola está vacía.
+ *
+ * 3. TaskManager concentra las decisiones para evitar que Sensor, Servo
+ *    o Botones modifiquen directamente el estado general del sistema.
+ *
+ * 4. pvParameters permite usar la misma funcion de tarea con diferentes
+ *    configuraciones, evitando crear funciones repetidas.
+ *
+ * 5. Una tarea suspendida no vuelve a ejecutarse hasta recibir vTaskResume().
+ *    Una tarea bloqueada por una cola vuelve cuando recibe datos o vence
+ *    el tiempo de espera.
+ *
+ * 6. Aumentar la ventana del filtro de mediana mejora el rechazo de ruido,
+ *    pero hace que la respuesta sea mas lenta.
+ *
+ * 7. La mediana rechaza picos mejor que el promedio porque toma el valor
+ *    central ordenado y no se ve tan afectada por valores extremos.
+ *
+ * 8. Si se presiona Start-operation durante el movimiento, no debe reiniciar
+ *    la operacion porque la tarea del boton Start queda suspendida.
+ *
+ * 9. El boton de velocidad solo funciona durante la operacion porque
+ *    TaskManager lo reanuda al iniciar y lo suspende al finalizar.
+ *
+ * 10. constexpr es preferible a #define porque tiene tipo, respeta alcance
+ *     y permite verificacion por el compilador.
+ */
 #include "app_context.hpp"
 #include "app_config.hpp"
 #include "sensor_task.hpp"
