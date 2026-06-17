@@ -1,0 +1,259 @@
+I (3277) MANAGER: Estado=0 Sensor=3 Servo=3 Start=1 Speed=3
+I (5337) MANAGER: Operacion iniciada
+I (5367) SENSOR: raw=3154 filtered=3154 target=180
+I (5387) MANAGER: Sensor filtered=3154 target=180
+I (5387) SERVO: nuevo objetivo=180 modo=LENTO
+I (5817) SENSOR: raw=3159 filtered=3159 target=180
+I (5837) MANAGER: Sensor filtered=3159 target=180
+I (5867) SERVO: actualizacion objetivo=180 modo=LENTO
+I (6267) SENSOR: raw=3248 filtered=3248 target=180
+I (6287) MANAGER: Sensor filtered=3248 target=180
+I (6287) MANAGER: Estado=1 Sensor=2 Servo=1 Start=3 Speed=2
+I (6287) SERVO: actualizacion objetivo=180 modo=LENTO
+I (6717) SENSOR: raw=3246 filtered=3246 target=180
+I (6737) MANAGER: Sensor filtered=3246 target=180
+I (6767) SERVO: actualizacion objetivo=180 modo=LENTO
+I (7167) SENSOR: raw=3275 filtered=3275 target=180
+I (7187) MANAGER: Sensor filtered=3275 target=180
+I (7187) SERVO: actualizacion objetivo=180 modo=LENTO
+I (7357) MANAGER: Velocidad=RAPIDA
+I (7357) BUTTON: [Task_ButtonSpeed] PRESSED
+I (7367) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (7617) SENSOR: raw=3248 filtered=3248 target=180
+I (7657) MANAGER: Sensor filtered=3248 target=180
+I (7667) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (8067) SENSOR: raw=3235 filtered=3235 target=180
+I (8107) MANAGER: Sensor filtered=3235 target=180
+I (8107) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (8517) SENSOR: raw=3247 filtered=3247 target=180
+I (8557) MANAGER: Sensor filtered=3247 target=180
+I (8587) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (8967) SENSOR: raw=3248 filtered=3248 target=180
+I (9007) MANAGER: Sensor filtered=3248 target=180
+I (9027) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (9307) MANAGER: Estado=1 Sensor=2 Servo=1 Start=3 Speed=2
+I (9417) SENSOR: raw=3231 filtered=3231 target=180
+I (9457) MANAGER: Sensor filtered=3231 target=180
+I (9467) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (9867) SENSOR: raw=3243 filtered=3243 target=180
+I (9907) MANAGER: Sensor filtered=3243 target=180
+I (9907) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (10317) SENSOR: raw=3209 filtered=3209 target=180
+I (10357) MANAGER: Sensor filtered=3209 target=180
+I (10387) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (10767) SENSOR: raw=3216 filtered=3216 target=180
+I (10807) MANAGER: Sensor filtered=3216 target=180
+I (10827) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (11217) SENSOR: raw=3246 filtered=3246 target=180
+I (11257) MANAGER: Sensor filtered=3246 target=180
+I (11267) SERVO: actualizacion objetivo=180 modo=RAPIDO
+I (11637) MANAGER: Velocidad=LENTA
+I (11637) BUTTON: [Task_ButtonSpeed] RELEASED
+I (11667) SERVO: actualizacion objetivo=180 modo=LENTO
+I (11667) SENSOR: raw=3207 filtered=3207 target=180
+I (11687) MANAGER: Sensor filtered=3207 target=180
+I (11737) SERVO: actualizacion objetivo=180 modo=LENTO
+I (12117) SENSOR: raw=3235 filtered=3235 target=180
+I (12137) MANAGER: Sensor filtered=3235 target=180
+I (12157) SERVO: actualizacion objetivo=180 modo=LENTO
+I (12337) MANAGER: Estado=1 Sensor=2 Servo=1 Start=3 Speed=1
+I (12567) SENSOR: raw=3269 filtered=3269 target=180
+I (12587) MANAGER: Sensor filtered=3269 target=180
+I (12637) SERVO: actualizacion objetivo=180 modo=LENTO
+I (13017) SENSOR: raw=3278 filtered=3278 target=180
+I (13037) MANAGER: Sensor filtered=3278 target=180
+I (13057) SERVO: actualizacion objetivo=180 modo=LENTO
+I (13467) SENSOR: raw=3271 filtered=3271 target=180
+I (13487) MANAGER: Sensor filtered=3271 target=180
+I (13537) SERVO: actualizacion objetivo=180 modo=LENTO
+I (13917) SENSOR: raw=3299 filtered=3299 target=180
+I (13937) MANAGER: Sensor filtered=3299 target=180
+I (13957) SERVO: actualizacion objetivo=180 modo=LENTO
+I (14017) SERVO: objetivo alcanzado=180
+I (14087) MANAGER: Objetivo alcanzado. Manteniendo 8 segundos
+I (14367) SENSOR: raw=3307 filtered=3307 target=180
+I (14817) SENSOR: raw=3281 filtered=3281 target=180
+I (15267) SENSOR: raw=3293 filtered=3293 target=180
+I (15337) MANAGER: Estado=2 Sensor=2 Servo=2 Start=3 Speed=1
+I (15717) SENSOR: raw=3287 filtered=3287 target=180
+I (16167) SENSOR: raw=3302 filtered=3302 target=180
+I (16617) SENSOR: raw=3312 filtered=3312 target=180
+I (17067) SENSOR: raw=3298 filtered=3298 target=180
+I (17517) SENSOR: raw=2879 filtered=2879 target=180
+I (17967) SENSOR: raw=2864 filtered=2864 target=180
+I (18337) MANAGER: Estado=2 Sensor=2 Servo=2 Start=3 Speed=1
+I (18417) SENSOR: raw=2495 filtered=2495 target=180
+I (18867) SENSOR: raw=1934 filtered=1934 target=0
+I (19317) SENSOR: raw=2047 filtered=2047 target=180
+I (19767) SENSOR: raw=2067 filtered=2067 target=180
+I (20217) SENSOR: raw=2064 filtered=2064 target=180
+I (20667) SENSOR: raw=2080 filtered=2080 target=180
+I (21117) SENSOR: raw=2115 filtered=2115 target=180
+I (21337) MANAGER: Estado=2 Sensor=2 Servo=2 Start=3 Speed=1
+I (21567) SENSOR: raw=2128 filtered=2128 target=180
+I (22017) SENSOR: raw=2879 filtered=2879 target=180
+I (22087) MANAGER: Operacion terminada. Sistema listo nuevamente
+I (22087) BUTTON: [Task_ButtonStart] PRESSED
+I (23687) MANAGER: Operacion iniciada
+I (23737) SENSOR: raw=1808 filtered=1808 target=0
+I (23787) MANAGER: Sensor filtered=1808 target=0
+I (23787) SERVO: nuevo objetivo=0 modo=LENTO
+I (24187) SENSOR: raw=1796 filtered=1796 target=0
+I (24237) MANAGER: Sensor filtered=1796 target=0
+I (24267) SERVO: actualizacion objetivo=0 modo=LENTO
+I (24337) MANAGER: Estado=1 Sensor=2 Servo=2 Start=3 Speed=2
+I (24637) SENSOR: raw=1808 filtered=1808 target=0
+I (24687) MANAGER: Sensor filtered=1808 target=0
+I (24687) SERVO: actualizacion objetivo=0 modo=LENTO
+I (25087) SENSOR: raw=1806 filtered=1806 target=0
+I (25137) MANAGER: Sensor filtered=1806 target=0
+I (25167) SERVO: actualizacion objetivo=0 modo=LENTO
+I (25537) SENSOR: raw=1808 filtered=1808 target=0
+I (25587) MANAGER: Sensor filtered=1808 target=0
+I (25587) SERVO: actualizacion objetivo=0 modo=LENTO
+I (25987) SENSOR: raw=1795 filtered=1795 target=0
+I (26037) MANAGER: Sensor filtered=1795 target=0
+I (26067) SERVO: actualizacion objetivo=0 modo=LENTO
+I (26437) SENSOR: raw=1787 filtered=1787 target=0
+I (26487) MANAGER: Sensor filtered=1787 target=0
+I (26487) SERVO: actualizacion objetivo=0 modo=LENTO
+I (26887) SENSOR: raw=1787 filtered=1787 target=0
+I (26937) MANAGER: Sensor filtered=1787 target=0
+I (26967) SERVO: actualizacion objetivo=0 modo=LENTO
+I (27337) MANAGER: Estado=1 Sensor=1 Servo=2 Start=3 Speed=2
+I (27337) SENSOR: raw=1786 filtered=1786 target=0
+I (27387) MANAGER: Sensor filtered=1786 target=0
+I (27387) SERVO: actualizacion objetivo=0 modo=LENTO
+I (27787) SENSOR: raw=1793 filtered=1793 target=0
+I (27837) MANAGER: Sensor filtered=1793 target=0
+I (27867) SERVO: actualizacion objetivo=0 modo=LENTO
+I (28237) SENSOR: raw=1803 filtered=1803 target=0
+I (28287) MANAGER: Sensor filtered=1803 target=0
+I (28287) SERVO: actualizacion objetivo=0 modo=LENTO
+I (28687) SENSOR: raw=1808 filtered=1808 target=0
+I (28737) MANAGER: Sensor filtered=1808 target=0
+I (28767) SERVO: actualizacion objetivo=0 modo=LENTO
+I (29137) SENSOR: raw=1803 filtered=1803 target=0
+I (29187) MANAGER: Sensor filtered=1803 target=0
+I (29187) SERVO: actualizacion objetivo=0 modo=LENTO
+I (29587) SENSOR: raw=1809 filtered=1809 target=0
+I (29637) MANAGER: Sensor filtered=1809 target=0
+I (29667) SERVO: actualizacion objetivo=0 modo=LENTO
+I (30037) SENSOR: raw=1799 filtered=1799 target=0
+I (30087) MANAGER: Sensor filtered=1799 target=0
+I (30087) SERVO: actualizacion objetivo=0 modo=LENTO
+I (30337) MANAGER: Estado=1 Sensor=2 Servo=2 Start=3 Speed=2
+I (30487) SENSOR: raw=1787 filtered=1787 target=0
+I (30537) MANAGER: Sensor filtered=1787 target=0
+I (30567) SERVO: actualizacion objetivo=0 modo=LENTO
+I (30937) SENSOR: raw=1806 filtered=1806 target=0
+I (30987) MANAGER: Sensor filtered=1806 target=0
+I (30987) SERVO: actualizacion objetivo=0 modo=LENTO
+I (31387) SENSOR: raw=1810 filtered=1810 target=0
+I (31437) MANAGER: Sensor filtered=1810 target=0
+I (31467) SERVO: actualizacion objetivo=0 modo=LENTO
+I (31837) SENSOR: raw=1819 filtered=1819 target=0
+I (31887) MANAGER: Sensor filtered=1819 target=0
+I (31887) SERVO: actualizacion objetivo=0 modo=LENTO
+I (32287) SENSOR: raw=1819 filtered=1819 target=0
+I (32337) MANAGER: Sensor filtered=1819 target=0
+I (32367) SERVO: actualizacion objetivo=0 modo=LENTO
+I (32737) SENSOR: raw=1689 filtered=1689 target=0
+I (32787) MANAGER: Sensor filtered=1689 target=0
+I (32787) SERVO: actualizacion objetivo=0 modo=LENTO
+I (33187) SENSOR: raw=3294 filtered=3294 target=180
+I (33237) MANAGER: Sensor filtered=3294 target=180
+I (33267) SERVO: actualizacion objetivo=180 modo=LENTO
+I (33337) MANAGER: Estado=1 Sensor=2 Servo=2 Start=3 Speed=2
+I (33637) SENSOR: raw=3315 filtered=3315 target=180
+I (33687) MANAGER: Sensor filtered=3315 target=180
+I (33687) SERVO: actualizacion objetivo=180 modo=LENTO
+I (34087) SENSOR: raw=3314 filtered=3314 target=180
+I (34137) MANAGER: Sensor filtered=3314 target=180
+I (34167) SERVO: actualizacion objetivo=180 modo=LENTO
+I (34537) SENSOR: raw=3314 filtered=3314 target=180
+I (34587) MANAGER: Sensor filtered=3314 target=180
+I (34587) SERVO: actualizacion objetivo=180 modo=LENTO
+I (34987) SENSOR: raw=3312 filtered=3312 target=180
+I (35037) MANAGER: Sensor filtered=3312 target=180
+I (35067) SERVO: actualizacion objetivo=180 modo=LENTO
+I (35437) SENSOR: raw=3311 filtered=3311 target=180
+I (35487) MANAGER: Sensor filtered=3311 target=180
+I (35487) SERVO: actualizacion objetivo=180 modo=LENTO
+I (35887) SENSOR: raw=3281 filtered=3281 target=180
+I (35937) MANAGER: Sensor filtered=3281 target=180
+I (35967) SERVO: actualizacion objetivo=180 modo=LENTO
+I (36337) MANAGER: Estado=1 Sensor=1 Servo=2 Start=3 Speed=2
+I (36337) SENSOR: raw=3306 filtered=3306 target=180
+I (36387) MANAGER: Sensor filtered=3306 target=180
+I (36387) SERVO: actualizacion objetivo=180 modo=LENTO
+I (36787) SENSOR: raw=3270 filtered=3270 target=180
+I (36837) MANAGER: Sensor filtered=3270 target=180
+I (36867) SERVO: actualizacion objetivo=180 modo=LENTO
+I (37237) SENSOR: raw=3273 filtered=3273 target=180
+I (37287) MANAGER: Sensor filtered=3273 target=180
+I (37287) SERVO: actualizacion objetivo=180 modo=LENTO
+I (37687) SENSOR: raw=3312 filtered=3312 target=180
+I (37737) MANAGER: Sensor filtered=3312 target=180
+I (37767) SERVO: actualizacion objetivo=180 modo=LENTO
+I (38137) SENSOR: raw=3311 filtered=3311 target=180
+I (38187) MANAGER: Sensor filtered=3311 target=180
+I (38187) SERVO: actualizacion objetivo=180 modo=LENTO
+I (38587) SENSOR: raw=3277 filtered=3277 target=180
+I (38637) MANAGER: Sensor filtered=3277 target=180
+I (38667) SERVO: actualizacion objetivo=180 modo=LENTO
+I (39037) SENSOR: raw=3306 filtered=3306 target=180
+I (39087) MANAGER: Sensor filtered=3306 target=180
+I (39087) SERVO: actualizacion objetivo=180 modo=LENTO
+I (39337) MANAGER: Estado=1 Sensor=2 Servo=2 Start=3 Speed=2
+I (39487) SENSOR: raw=3271 filtered=3271 target=180
+I (39537) MANAGER: Sensor filtered=3271 target=180
+I (39567) SERVO: actualizacion objetivo=180 modo=LENTO
+I (39937) SENSOR: raw=3307 filtered=3307 target=180
+I (39987) MANAGER: Sensor filtered=3307 target=180
+I (39987) SERVO: actualizacion objetivo=180 modo=LENTO
+I (40387) SENSOR: raw=3271 filtered=3271 target=180
+I (40437) MANAGER: Sensor filtered=3271 target=180
+I (40467) SERVO: actualizacion objetivo=180 modo=LENTO
+I (40837) SENSOR: raw=3309 filtered=3309 target=180
+I (40887) MANAGER: Sensor filtered=3309 target=180
+I (40887) SERVO: actualizacion objetivo=180 modo=LENTO
+I (41287) SENSOR: raw=3307 filtered=3307 target=180
+I (41337) MANAGER: Sensor filtered=3307 target=180
+I (41367) SERVO: actualizacion objetivo=180 modo=LENTO
+I (41737) SENSOR: raw=3311 filtered=3311 target=180
+I (41787) MANAGER: Sensor filtered=3311 target=180
+I (41787) SERVO: actualizacion objetivo=180 modo=LENTO
+I (42187) SENSOR: raw=3278 filtered=3278 target=180
+I (42237) MANAGER: Sensor filtered=3278 target=180
+I (42267) SERVO: actualizacion objetivo=180 modo=LENTO
+I (42337) MANAGER: Estado=1 Sensor=2 Servo=2 Start=3 Speed=2
+I (42637) SENSOR: raw=3283 filtered=3283 target=180
+I (42687) MANAGER: Sensor filtered=3283 target=180
+I (42687) SERVO: actualizacion objetivo=180 modo=LENTO
+I (42747) SERVO: objetivo alcanzado=180
+I (42787) MANAGER: Objetivo alcanzado. Manteniendo 8 segundos
+I (43087) SENSOR: raw=3312 filtered=3312 target=180
+I (43537) SENSOR: raw=3311 filtered=3311 target=180
+I (43987) SENSOR: raw=3299 filtered=3299 target=180
+I (44437) SENSOR: raw=3296 filtered=3296 target=180
+I (44887) SENSOR: raw=3303 filtered=3303 target=180
+I (45337) MANAGER: Estado=2 Sensor=1 Servo=2 Start=3 Speed=2
+I (45337) SENSOR: raw=3307 filtered=3307 target=180
+I (45787) SENSOR: raw=3306 filtered=3306 target=180
+I (46237) SENSOR: raw=3306 filtered=3306 target=180
+I (46687) SENSOR: raw=3299 filtered=3299 target=180
+I (47137) SENSOR: raw=3302 filtered=3302 target=180
+I (47587) SENSOR: raw=3299 filtered=3299 target=180
+I (48037) SENSOR: raw=3292 filtered=3292 target=180
+I (48337) MANAGER: Estado=2 Sensor=2 Servo=2 Start=3 Speed=2
+I (48487) SENSOR: raw=3286 filtered=3286 target=180
+I (48937) SENSOR: raw=3287 filtered=3287 target=180
+I (49387) SENSOR: raw=3307 filtered=3307 target=180
+I (49837) SENSOR: raw=3302 filtered=3302 target=180
+I (50287) SENSOR: raw=3299 filtered=3299 target=180
+I (50737) SENSOR: raw=3303 filtered=3303 target=180
+I (50787) MANAGER: Operacion terminada. Sistema listo nuevamente
+I (50787) BUTTON: [Task_ButtonStart] PRESSED
+I (51337) MANAGER: Estado=0 Sensor=3 Servo=3 Start=2 Speed=3
+I (54337) MANAGER: Estado=0 Sensor=3 Servo=3 Start=2 Speed=3
