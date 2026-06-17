@@ -1,5 +1,5 @@
 # Practica4_Primer_Parcial
-# Práctica 4 - Control de Servo con FreeRTOS y ESP-IDF
+# Control de Servo con FreeRTOS y ESP-IDF
 
 ## Alumno
 
